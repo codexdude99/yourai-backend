@@ -49,7 +49,7 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 MODEL_NAME = os.getenv(
     "MODEL_NAME",
-    "arcee-ai/trinity-large-thinking:free"
+    "openrouter/free"
 )
 
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2048"))
